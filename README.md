@@ -1,8 +1,20 @@
-# Degen Scraper
+All files will be uploaded for the user to give examples and add thier own implementations if interested.
+
+### Supports multi-social agent:
+
+- see: [https://gist.github.com/bitgentdev/89e7a833a826842bfa7db572f34195fe.js](https://gist.github.com/bitgentdev/89e7a833a826842bfa7db572f34195fe) for more information
+
+## Contributing
+
+We welcome contributions to this project. If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+## Acknowledgments
+
+We would like to thank OrdiSwap for partnership, implementation information, partnership and funding to make this project happen.
+
+#Scraper
 
 Pipeline for generating AI character files and training datasets by scraping public figures' online presence across Twitter and blogs.
-
-> ⚠️ **IMPORTANT**: Create a new Twitter account for this tool. DO NOT use your main account as it may trigger Twitter's automation detection and result in account restrictions.
 
 ## Setup
 
@@ -17,17 +29,6 @@ Pipeline for generating AI character files and training datasets by scraping pub
    TWITTER_USERNAME=     # your twitter username
    TWITTER_PASSWORD=     # your twitter password
 
-   # (Optional) Blog Configuration
-   BLOG_URLS_FILE=      # path to file containing blog URLs
-
-   # (Optional) Scraping Configuration
-   MAX_TWEETS=          # max tweets to scrape
-   MAX_RETRIES=         # max retries for scraping
-   RETRY_DELAY=         # delay between retries
-   MIN_DELAY=           # minimum delay between requests
-   MAX_DELAY=           # maximum delay between requests
-   ```
-
 ## Usage
 
 ### Twitter Collection
@@ -41,12 +42,6 @@ Example: `npm run twitter -- pmarca`
 npm run blog
 ```
 
-### Generate Character
-```bash
-npm run character -- username
-```
-Example: `npm run character -- pmarca`
-
 ### Finetune
 ```bash
 npm run finetune
@@ -56,15 +51,6 @@ npm run finetune
 ```bash
 npm run finetune:test
 ```
-
-### Generate Virtuals Character Card
-https://whitepaper.virtuals.io/developer-documents/agent-contribution/contribute-to-cognitive-core#character-card-and-goal-samples
-
-Run this after Twitter Collection step 
-```bash
-npm run generate-virtuals -- username date 
-```
-
 Example: `npm run generate-virtuals -- pmarca 2024-11-29`
 Example without date: `npm run generate-virtuals -- pmarca`
 
