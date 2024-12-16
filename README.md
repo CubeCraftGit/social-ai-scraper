@@ -1,6 +1,6 @@
 All files will be uploaded for the user to give examples and add thier own implementations if interested.
 
-### Supports multi-social agent:
+# Twitter Scraper implementation for Bitgent
 
 - see: [https://gist.github.com/bitgentdev/89e7a833a826842bfa7db572f34195fe.js](https://gist.github.com/bitgentdev/89e7a833a826842bfa7db572f34195fe) for more information
 
