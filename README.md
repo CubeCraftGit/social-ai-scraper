@@ -1,8 +1,8 @@
 All files will be uploaded for the user to give examples and add thier own implementations if interested.
 
-# Twitter Scraper implementation for Bitgent
+# Twitter Scraper implementation for Ordigent
 
-- see: [https://gist.github.com/bitgentdev/89e7a833a826842bfa7db572f34195fe.js](https://gist.github.com/bitgentdev/89e7a833a826842bfa7db572f34195fe) for more information
+- see: https://gist.github.com/ordigent/7262442ba5e5e1a1c4ef945bca20ae38 for more information
 
 ## Contributing
 
