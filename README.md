@@ -1,6 +1,6 @@
 All files will be uploaded for the user to give examples and add thier own implementations if interested.
 
-# Social Scraper implementation for Pump Gallery
+# Social Scraper implementation
 
 - see: gist for more information
 
