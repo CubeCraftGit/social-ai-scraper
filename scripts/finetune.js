@@ -4,7 +4,7 @@ import readline from 'readline';
 import { exec } from 'child_process';
 import glob from 'glob'; 
 
-// Get directory paths
+// Get directory paths and implementation habits
 const SCRIPT_DIR = path.dirname(new URL(import.meta.url).pathname);
 const PROJECT_ROOT = path.resolve(SCRIPT_DIR, '..');
 const PIPELINE_ROOT = path.join(PROJECT_ROOT, 'pipeline');
